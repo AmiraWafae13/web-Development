@@ -1,0 +1,23 @@
+.cell{
+    border: 2px solid rgb(157, 218, 228);
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 0 1px  rgb(157, 218, 228);
+    line-height: 75px;
+    font-size: 45px;
+    cursor: pointer;
+    
+}
+#gameBox{
+    font: 100;
+    font-family: "Permanent Marker",cursive;
+    text-align: center;
+}
+#cellBox{
+    border-style: dotted;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic tac toe game</title>
+</head>
+<body>
+
+      <!--  <table>
+        <td>
+            <ul>1  </ul>
+            <ul>2  </ul>
+            <ul> 3 </ul>
+        </td>
+
+        <td>
+            <ul> 4 </ul>
+            <ul> 5 </ul>
+            <ul> 6 </ul> 
+        </td>
+
+         <td>
+            <ul> 7 </ul>
+            <ul> 8 </ul>
+            <ul> 9 </ul> 
+        </td>
+        </table>--> 
+
+        <div id="gameBox">
+            <h1>Tic tac toe</h1>
+            <h2> Turn's</h2> <h2 class="title"> <strong>X</strong>  </h2> 
+            <div id="cellBox">
+                <div onclick="type(this.id)"  id="cell1" cellindex="0" class="cell"></div>
+                <div onclick="type(this.id)" id="cell2" cellindex="1" class="cell"></div>
+                <div  onclick="type(this.id)" id="cell3" cellindex="2" class="cell"></div> 
+                <div onclick="type(this.id)" id="cell4" cellindex="3" class="cell"></div>
+                <div onclick="type(this.id)" id="cell5" cellindex="4" class="cell"></div>
+                <div onclick="type(this.id)" id="cell6" cellindex="5" class="cell"></div>
+                <div onclick="type(this.id)" id="cell7" cellindex="6" class="cell"></div>
+                <div onclick="type(this.id)" id="cell8" cellindex="7" class="cell"></div>
+                <div onclick="type(this.id)" id="cell9" cellindex="8" class="cell"></div> 
+            </div>
+          
+
+
+            <button onclick="restart()" id="restart">restart</button>
+    </div>
+</body>
+<script src="j.js"></script>
+</html>
