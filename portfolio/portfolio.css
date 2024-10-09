@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color:#fffeed;
+    color: #333333;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+   color: #485AD0; 
+   font-size: 31px;
+   font-weight: 600;
+   text-decoration: none;
+}
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 4px 0;
+    margin-left: 40%;
+    display: flex;
+    align-items: left;
+    justify-content:space-between;
+}
+.navbar a{
+    font-size: 16.7px;
+    text-decoration: none;  
+    font-weight: 550;
+    color: #333333 ;
+    align-items: left;
+    margin-left: 35px;
+    transition: .3s;  
+}
+.navbar a:hover {
+    color: #b49cf0;
+    font-size: 17.5px;
+}
+.home{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   padding: 0 10%;
+}
+.home-content {
+     max-width: 600px;  
+}
+.home-content h1 {
+    color : #ffbfb7;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content h3{
+    color: #485ad0;
+    font-size: 34px;
+    font-weight: 670;
+}
+.home-content p {
+    font-style: 17px;
+    margin: 20px 0 40px;
+}
+.home-content .btn-box{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    justify-content: space-between;
+}
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #E4D9FF;
+    width: 155px;
+    height: 100%;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    font-size: 23px;
+    color:#333333;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px; 
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color :#333333;
+}
+/*
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #485AD0;
+    z-index: -1;
+    transition: .5s;
+    overflow: hidden;
+}
+    *//*
+.btn-box a:hover::before{
+    width: 100%;
+}*/
+
